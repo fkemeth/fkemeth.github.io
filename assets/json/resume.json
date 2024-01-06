@@ -1,52 +1,72 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Felix Kemeth",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
+    "email": "felix [at] kemeth.de",
     "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "url": "https://fkemeth.github.io/",
+    "summary": "...",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "...",
+      "postalCode": "...",
+      "city": "...",
+      "countryCode": "...",
+      "region": "..."
     },
     "profiles": [
       {
         "network": "Twitter",
         "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "url": "www.linkedin.com/in/felixkemeth"
+      },
+      {
+        "network": "GitHub",
+        "username": "fkemeth",
+        "url": "www.github.com/fkemeth"
+      },
+      {
+        "network": "Medium",
+        "username": "felixkemeth",
+        "url": "https://felixkemeth.medium.com/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Adidas",
+      "position": "Senior Data Scientist",
+      "startDate": "2022-10-01",
+      "summary": "Data Science Lead - Personalized Product Recommendations and Research on Demand Forecasting",
       "highlights": [
-        "Relativity"
+          "Recommender Systems",
+          "AI/ML"
+      ]
+    },
+    {
+      "name": "intive",
+      "position": "Team Lead AI",
+        "startDate": "2021-07-01",
+        "endDate": "2022-09-30",
+      "summary": "Team Lead for AI/ML team",
+      "highlights": [
+          "Text-to-Speech",
+          "Speech-to-Text",
+          "Image Segmentation"
+      ]
+    },
+    {
+      "name": "Johns Hopkins University",
+      "position": "Postdoctoral Researcher",
+        "startDate": "2020-01-01",
+        "endDate": "2022-06-30",
+      "summary": "Research in Forecasting and Time Series Analysis",
+      "highlights": [
+          "RNN",
+          "LSTM",
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": [
-        "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.","Men of the year 2014 by Time magazine"
-      ]
-    }],
   "education": [
     {
       "institution": "University of Zurich, Zurich, Switzerland",
