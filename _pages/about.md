@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Recommender Systems, Time Series Forecasting, Pattern Formation
+subtitle: Recommender Systems - Time Series Forecasting - Pattern Formation
 
 profile:
   align: right
