@@ -275,7 +275,7 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 scholar:
 
   last_name: [Kemeth]
-  first_name: [Felix, P.]
+  first_name: [Felix P.]
 
   style: apa
   locale: en
