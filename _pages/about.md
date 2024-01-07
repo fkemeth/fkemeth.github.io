@@ -9,7 +9,7 @@ profile:
   image: profile.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Senior Data Scientist</p>
+    <p>&nbsp;&nbsp;Senior Data Scientist</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
