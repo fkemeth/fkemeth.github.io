@@ -5,7 +5,7 @@ permalink: /
 subtitle: Recommender Systems - Time Series Forecasting - Pattern Formation
 
 profile:
-  align: right
+  align: center
   image: profile.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
