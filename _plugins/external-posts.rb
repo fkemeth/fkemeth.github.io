@@ -11,8 +11,18 @@ module ExternalPosts
       if site.config['external_sources'] != nil
         site.config['external_sources'].each do |src|
           p "Fetching external posts from #{src['name']}:"
-          xml = HTTParty.get(src['rss_url']).body
-          feed = Feedjira.parse(xml)
+          response = HTTParty.get(src['rss_url'])
+          xml = response.body
+
+          begin
+            feed = Feedjira.parse(xml)
+          rescue Feedjira::NoParserAvailable => e
+            Jekyll.logger.warn "ExternalPosts:", "No valid parser for XML from #{src['rss_url']}: #{e.message}"
+            next
+          rescue StandardError => e
+            Jekyll.logger.warn "ExternalPosts:", "Error parsing feed from #{src['rss_url']}: #{e.class} - #{e.message}"
+            next
+          end
           feed.entries.each do |e|
             p "...fetching #{e.url}"
             slug = e.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
