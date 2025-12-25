@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-I’ve launched **Akribic**, a new blog focused on hands-on AI automation workflows. 🚀  
+I’ve launched **Akribic**, a new blog focused on hands-on AI automation workflows.  
 
 On [Akribic](https://www.akribic.com), I share step-by-step breakdowns of real automations, concrete configs and snippets you can reuse, and honest notes on what actually works (and what doesn’t) when building AI-powered workflows in practice.  
 
