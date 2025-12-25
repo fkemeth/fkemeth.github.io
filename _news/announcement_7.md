@@ -1,12 +1,12 @@
 ---
 layout: post
-date: 2025-12-25 12:00:00-0400
+date: 2025-11-26 12:00:00-0400
 inline: true
 related_posts: false
 ---
 
-I've published a new article, **"GPT-5.1 vs Ministral-3 3B: Evaluating AI Newsletter Quality For Local AI Newsletter Generation"**, where I test whether a $0 local model can match a frontier cloud model for automated newsletters.
+I've published a new article, **"AI News Agent: A Smarter Newsletter That Knows When to Send"**, where I share an intelligent n8n workflow that decides when news is actually worth sending.
 
-I ran the same 6-stage **n8n** workflow—news ingestion, relevance scoring, editorial decision, research enrichment, formatting, and delivery—with both **GPT-5.1** and **Ministral-3 3B** (via Ollama on a MacBook). Using **LLM-as-a-judge** evaluation across five topics, the local model scored 3.47 vs 4.07—closer than expected. The post covers three techniques that make local models viable: task decomposition, JSON auto-correction, and short context windows.
+Unlike fixed-schedule newsletters, this **AI News Agent** uses an editorial AI to evaluate whether today's news meets quality thresholds—with built-in deduplication against the last 5 editions and configurable frequency guardrails (min/max days between sends). The workflow fetches news via **SerpAPI's DuckDuckGo News**, stores articles with automatic deduplication, and enriches selected pieces with **Tavily** web search before delivering via Telegram.
 
-You can read it on Akribic [here](https://www.akribic.com/blog/multi-agent-newsletter).
+You can read it on Akribic [here](https://www.akribic.com/blog/ai-news-agent).
